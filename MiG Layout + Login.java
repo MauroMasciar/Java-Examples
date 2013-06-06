@@ -14,7 +14,7 @@ import javax.swing.JPasswordField;
 import javax.swing.JButton;
 import net.miginfocom.swing.*;
 
-public class FormLogin {
+public class Login {
 	JFrame j = new JFrame();
 	JLabel lblUsername = new JLabel("Username:");
 	JLabel lblPassword = new JLabel("Password");
@@ -25,7 +25,7 @@ public class FormLogin {
 	JPanel panelUsername = new JPanel();
 	JPanel panelPassword = new JPanel();
 	JPanel panelLogin = new JPanel();
-	public FormLogin() {
+	public Login() {
 		j.setTitle("Form Login");
 		j.setSize(260, 110);
 		j.setResizable(false);
@@ -46,7 +46,7 @@ public class FormLogin {
 
 	public static void main(String[] args) {
 		@SuppressWarnings("unused")
-		FormLogin app = new FormLogin();
+		Login app = new Login();
 	}
 
 }
