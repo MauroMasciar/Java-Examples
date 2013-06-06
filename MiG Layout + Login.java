@@ -1,4 +1,10 @@
-package mig;
+/*
+Example of MiG Layout. Java Layout Manager for Swing, SWT and JavaFX 2
+http://www.miglayout.com/
+
+Mauro Masciadro
+Masciar®
+*/
 
 import javax.swing.JFrame;
 import javax.swing.JPanel;

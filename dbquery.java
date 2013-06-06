@@ -1,9 +1,15 @@
+/*
+Example of how to do an SQL query
+
+Mauro Masciadro
+Masciar®
+*/
+
 import java.sql.Connection;
 import java.sql.Statement;
 import java.sql.DriverManager;
 
 class dbquery {
-
     private final static String drv = "com.mysql.jdbc.Driver";
     private final static String db = "jdbc:mysql://localhost:1122";
     private final static String user = "user";

@@ -1,4 +1,9 @@
-/* Take a screenshot */
+/* 
+Take a Screenshot. Simple, really?
+
+Mauro Masciadro
+Masciar®
+ */
 
 import java.awt.AWTException;
 import java.awt.Rectangle;
