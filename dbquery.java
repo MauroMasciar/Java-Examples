@@ -1,5 +1,3 @@
-package CodigosAImplementar;
-
 import java.sql.Connection;
 import java.sql.Statement;
 import java.sql.DriverManager;
@@ -48,6 +46,6 @@ class dbquery {
     }
 
     public static void main(String[] args) {
-        dbquery app = new dbquery();
+        connect app = new connect();
     }
 }
